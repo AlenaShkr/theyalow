@@ -10,16 +10,19 @@ header {
   height: 566px;
   padding-top: 28px;
 
-  background: url('assets/header/bgHeader.jpeg') no-repeat center;
-  background-size: cover;
+  background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%), url('assets/header/bgHeader.jpeg') center;
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: 1em 1em, 1em 1em, cover;
 }
+
+
+
 .wrapper {
   width: 100%;
   max-width: 1020px;
   margin:  0 auto;
 
-  background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
-  background-size: 1em 1em;
+
 }
 
 header .wrapper {
@@ -28,6 +31,8 @@ header .wrapper {
 }
 
 .logo h1 {
+  position: absolute;
+  z-index: 3;
   display: inline-block;
   margin: 0px;
   vertical-align: 50%;
