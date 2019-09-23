@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url('./assets/fonts/lato/Lato-Bold.woff2')
+}
+header {
+  height: 566px;
+  padding-top: 28px;
+
+  background: url('assets/header/bgHeader.jpeg') no-repeat center;
+  background-size: cover;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1020px;
+  margin:  0 auto;
+
+  background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+  background-size: 1em 1em;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  display: inline-block;
+  margin: 0px;
+  vertical-align: 50%;
+  text-transform: uppercase;
+  color: white;
+  font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 41.04912pt;
+}
+
+.logo img {
+  padding-right: 9px;
+}
+
+nav {
+  display: flex;
+  width: 453px;
+  height: 41px;
+  margin-top: 11px;
+}
+
+.header_navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+
+  background-color: #cba60e;
+}
+
+.header_navlist li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+  list-style-type: none;
+  border-right: rgba(155, 125, 8, 255) 1px solid;
+}
+
+.header_navlist li:last-child {
+  border-right: none;
+}
+
+.header_navlist a {
+  text-decoration: none;
+  font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 17.04912px;
+  color: rgba(155, 125, 8, 255);
+}
+
+.header_navlist a::before {
+  content: '12';
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider__slogan {
+  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 63.04912px;
+  color: rgba(245, 197, 6, 255);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.slider__slogan p:last-child {
+  color: whitesmoke;
+}
+
+.slider__button-prev,
+.slider__button-next {
+  width: 32px;
+  height: 57px;
+
+  background: #cba60e;
+  color: whitesmoke;
+  border: none;
+
+  font-size: 38px;
+  font-weight: bold;
+}
+
