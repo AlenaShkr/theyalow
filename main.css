@@ -26,8 +26,6 @@ header {
   width: 100%;
   max-width: 1020px;
   margin:  0 auto;
-
-
 }
 
 header .wrapper {
@@ -218,4 +216,91 @@ button.slider {
   margin-bottom: 17px;
 
   background: url(assets/main/benefit/paperplane.png);
+}
+
+.scroll {
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+
+  background: url('./assets/main/scroll/bgscroll.jpeg') repeat;
+}
+
+.scroll h2 {
+  margin-top: 0px;
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 37px;
+}
+
+.scroll__description {
+  width: 341px;
+
+  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 29px;
+
+  background: #ec9e03;
+}
+
+.scroll__description p {
+  margin: 0px;
+  padding: 31px 25px 0px 34px;
+}
+
+.scroll button {
+  position: relative;
+  left: 90%;
+  background: #ec9e03;
+  border: 0px;
+  color: white;
+}
+
+.scroll__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scroll__video {
+  display: flex;
+}
+
+.scroll__twiter {
+  background: #ec9e03;
+}
+
+.scroll__twiter-image {
+  display: block;
+  width: 163px;
+  height: 133px;
+  margin: 35px 83px 17px 83px;
+}
+.scroll__twiter-count {
+  position: relative;
+  left: 90%;
+  margin: 0px;
+
+  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 25px;
+}
+
+.scroll__calendar {
+  display: inline-block;
+  margin-bottom: 43px;
+
+  background: #ddb101;
+
+  font-size: 51px;
+  color: rgba(255, 255, 255, 255);
+}
+
+.scroll__calendar-day {
+  margin: 15px 27px 0px 31px;
+}
+
+.scroll__calendar-month {
+  margin: 0px;
+
+  font-size: 21px;
+  color: rgba(178, 101, 41, 255);
+  text-align: center;
 }
