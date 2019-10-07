@@ -13,7 +13,7 @@ body {
   background-size: 0.5em 0.5em;
 }
 
-header {
+.header {
   height: 566px;
   padding-top: 28px;
 
@@ -28,7 +28,7 @@ header {
   margin:  0 auto;
 }
 
-header .wrapper {
+.header .wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -159,7 +159,7 @@ button.slider {
 .benefit {
   height: 212px;
 
-  box-shadow: 0px -3px 4px 0px rgba(71, 71, 70, 0.74);
+  box-shadow: 0px 3px 4px 7px rgba(71, 71, 70, 0.74);
 }
 
 .benefit .wrapper {
@@ -223,10 +223,14 @@ button.slider {
   text-align: left;
 
   background: url('./assets/main/scroll/bgscroll.jpeg') repeat;
+
+  box-shadow: inset 0px 9px 16px -4px rgba(71, 71, 70, 0.74) ;
 }
 
 .scroll h2 {
-  margin-top: 0px;
+  margin: 0px;
+  padding-top: 42px;
+  padding-bottom: 40px;
   font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
   font-size: 37px;
 }
@@ -248,6 +252,7 @@ button.slider {
 .scroll button {
   position: relative;
   left: 90%;
+
   background: #ec9e03;
   border: 0px;
   color: white;
@@ -265,6 +270,8 @@ button.slider {
 }
 
 .scroll__twiter {
+  font-size: 25px;
+
   background: #ec9e03;
 }
 
@@ -272,8 +279,9 @@ button.slider {
   display: block;
   width: 163px;
   height: 133px;
-  margin: 35px 83px 17px 83px;
+  margin: 35px 83px 5px 83px;
 }
+
 .scroll__twiter-count {
   position: relative;
   left: 90%;
@@ -298,9 +306,92 @@ button.slider {
 }
 
 .scroll__calendar-month {
-  margin: 0px;
+  margin: 0px 0px 5px 0px;
 
   font-size: 21px;
   color: rgba(178, 101, 41, 255);
   text-align: center;
+}
+
+.scroll___button_plus:hover {
+  color: orangered;
+}
+
+.services {
+  height: 499px;
+
+  background: url('assets/main/services/bgservices.jpeg') repeat;
+}
+
+.services__caption {
+  padding-top: 48px;
+  padding-bottom: 57px;
+  margin: 0px;
+
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 43px;
+  color: rgba(245, 197, 6, 255);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services__image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services__image_stamp {
+  position: relative;
+  bottom: 50px;
+  width: 116px;
+  height: 116px;
+  z-index: 2;
+
+  background: #f5c506;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.services__image_stamp p {
+  margin: 0px 0px 0px 5px;
+  padding-top: 40%;
+
+  font-family: PTSans-NarrowBold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 255);
+}
+
+.services__image_device {
+  position: relative;
+  right: 20px;
+  width: 540px;
+  height: 255px;
+}
+
+.services__list {
+  margin: 0px;
+
+  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 22px;
+  color: rgba(169, 169, 167, 255);
+  text-align: left;
+  list-style-type: none;
+}
+
+.services__list li::before {
+  content: '.';
+  position: relative;
+  bottom: 4px;
+
+  margin-right: 20px;
+
+  font-size: 52px;
+  font-weight: bold;
+  color: yellow;
+
+
 }
