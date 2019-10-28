@@ -219,6 +219,7 @@ button.slider {
 }
 
 .scroll {
+  padding-bottom: 20px;
   color: rgba(255, 255, 255, 255);
   text-align: left;
 
@@ -229,8 +230,8 @@ button.slider {
 
 .scroll h2 {
   margin: 0px;
-  padding-top: 42px;
-  padding-bottom: 40px;
+  padding-top: 35px;
+  padding-bottom: 30px;
   font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
   font-size: 37px;
 }
@@ -263,6 +264,10 @@ button.slider {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+
+  width: 101%;
+  overflow-x: scroll;
 }
 
 .scroll__video {
@@ -292,7 +297,8 @@ button.slider {
 }
 
 .scroll__calendar {
-  display: inline-block;
+  align-self: flex-start;
+  margin-right: 100%;
   margin-bottom: 43px;
 
   background: #ddb101;
@@ -302,11 +308,11 @@ button.slider {
 }
 
 .scroll__calendar-day {
-  margin: 15px 27px 0px 31px;
+  margin: 5px 27px 0px 31px;
 }
 
 .scroll__calendar-month {
-  margin: 0px 0px 5px 0px;
+  margin: 0px;
 
   font-size: 21px;
   color: rgba(178, 101, 41, 255);
@@ -317,6 +323,24 @@ button.slider {
   color: orangered;
 }
 
+.scroll__main::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll__main::-webkit-scrollbar-track {
+  background: whitesmoke;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.scroll__main::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #ec9e03;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
 .services {
   height: 499px;
 
@@ -324,8 +348,9 @@ button.slider {
 }
 
 .services__caption {
-  padding-top: 48px;
-  padding-bottom: 57px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 90px;
   margin: 0px;
 
   font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
@@ -339,13 +364,15 @@ button.slider {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 25px;
 }
 
 .services__image_stamp {
   position: relative;
-  bottom: 50px;
-  width: 116px;
-  height: 116px;
+  bottom: 45px;
+  right: 26px;
+  width: 184px;
+  height: 120px;
   z-index: 2;
 
   background: #f5c506;
@@ -367,7 +394,7 @@ button.slider {
 
 .services__image_device {
   position: relative;
-  right: 20px;
+  right: 120px;
   width: 540px;
   height: 255px;
 }
@@ -392,6 +419,29 @@ button.slider {
   font-size: 52px;
   font-weight: bold;
   color: yellow;
+}
 
+.footer {
+  height: calc(1847px - 566px - 212px - 509px - 499px);
 
+  background: #4c4c4c;
+  box-shadow: 0px 3px 4px 7px rgba(22, 22, 22, 0.74);
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 51px;
+}
+
+.footer__logo img {
+  height: 51px;
+  margin-right: 9px;
+  margin-left: 2px;
+}
+
+.footer__logo h1 {
+  color: white;
+  text-transform: uppercase;
 }
