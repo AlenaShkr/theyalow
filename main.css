@@ -99,7 +99,7 @@ nav {
 }
 
 .main {
-min-height: calc(100vh-84px);
+  min-height: calc(100vh-544px-84px);
 }
 
 .slider {
@@ -359,6 +359,10 @@ button.slider {
   background: url('assets/main/services/bgservices.jpeg') repeat;
 }
 
+.services .wrapper {
+  min-height: 496px
+}
+
 .services__caption {
   padding-top: 40px;
   padding-bottom: 50px;
@@ -403,8 +407,9 @@ button.slider {
   padding-top: 40%;
 
   font-family: PTSans-NarrowBold, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 17px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 255);
+  text-transform: uppercase;
 }
 
 .services__image_device {
