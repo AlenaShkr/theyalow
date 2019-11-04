@@ -8,7 +8,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
 }
 
 .header {
@@ -98,6 +98,10 @@ nav {
   margin-right: 10px;
 }
 
+.main {
+min-height: calc(100vh-84px);
+}
+
 .slider {
   display: flex;
   justify-content: space-between;
@@ -155,8 +159,6 @@ button.slider {
 }
 
 .benefit {
-  height: 212px;
-
   background: linear-gradient(45deg,rgba(117, 116, 116, 0) 48%,rgba(218, 213, 213, 0.4) 50%,rgba(117, 116, 116, 0) 52%);
   background-repeat: repeat;
   background-size: 0.5em 0.5em;
@@ -343,8 +345,6 @@ button.slider {
 }
 
 .services {
-  height: 499px;
-
   background: url('assets/main/services/bgservices.jpeg') repeat;
 }
 
@@ -421,7 +421,7 @@ button.slider {
 }
 
 .footer {
-  height: calc(100vh - 566px - 212px - 509px - 499px);
+  height: 64px;
 
   background: #4c4c4c;
   box-shadow: 0px 3px 4px 7px rgba(22, 22, 22, 0.74);
