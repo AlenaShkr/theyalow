@@ -172,6 +172,7 @@ button.slider {
 
   width: 100%;
   height: 100%;
+  padding-left: 0px;
 }
 
 .benefit .wrapper * {
@@ -179,6 +180,9 @@ button.slider {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  padding-top: 40px;
+  padding-bottom: 33px;
 
   font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
   font-size: 27px;
@@ -198,7 +202,8 @@ button.slider {
   content:'';
   width: 109px;
   height: 74px;
-  margin-bottom: 17px;
+  margin-bottom: 12px;
+  margin-top: 20px;
 
   background: url(assets/main/benefit/cloud.png);
 }
@@ -207,7 +212,8 @@ button.slider {
   content:'';
   width: 91px;
   height: 95px;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 
   background: url(assets/main/benefit/list.png);
 }
@@ -216,7 +222,9 @@ button.slider {
   content:'';
   width: 81px;
   height: 80px;
-  margin-bottom: 17px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  margin-right: 20px;
 
   background: url(assets/main/benefit/paperplane.png);
 }
