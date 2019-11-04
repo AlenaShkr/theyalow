@@ -243,8 +243,10 @@ button.slider {
   margin: 0px;
   padding-top: 35px;
   padding-bottom: 30px;
+
   font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
   font-size: 37px;
+  text-transform: uppercase;
 }
 
 .scroll__description {
@@ -277,7 +279,7 @@ button.slider {
   align-items: center;
   flex-wrap: wrap;
 
-  width: 101%;
+  width: 100%;
   overflow-x: scroll;
 }
 
@@ -300,7 +302,8 @@ button.slider {
 
 .scroll__twiter-count {
   position: relative;
-  left: 90%;
+  left: 86%;
+  top: 0.5em;
   margin: 0px;
 
   font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
