@@ -256,13 +256,11 @@ body {
 }
 
 .benefit__li_first:before {
-  content:'';
-  width: 109px;
-  height: 74px;
-  margin-bottom: 12px;
-  margin-top: 20px;
-
-  background: url(assets/main/benefit/cloud.png);
+  font-family: Fontello;
+  content:'\F0ED';
+  color: #f7c80d;
+  font-size: 109px;
+  transform: rotateY(180deg);
 }
 
 .benefit__li_second:before {
@@ -276,14 +274,13 @@ body {
 }
 
 .benefit__li_third:before {
-  content:'';
-  width: 81px;
-  height: 80px;
-  margin-top: 10px;
-  margin-bottom: 18px;
+  font-family: Fontello;
+  content:'\E802';
+  color: #f7c80d;
+  font-size: 109px;
+  font-weight: bold;
   margin-right: 20px;
-
-  background: url(assets/main/benefit/paperplane.png);
+  transform: rotateY(180deg);
 }
 
 .scroll {
