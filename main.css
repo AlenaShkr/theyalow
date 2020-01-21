@@ -647,20 +647,24 @@ body {
     box-shadow: none;
   }
 
+  .scroll {
+    padding-bottom: 0px;
+  }
+
   .scroll__title {
     display: none;
   }
 
   .scroll__main {
     margin-top: 11px;
-    margin-bottom: 9px;
+    margin-bottom: 0px;
 
     background: #ffffff;
+    overflow: hidden;
   }
 
   .scroll__description {
     width: 100%;
-    margin-left: 9px;
 
     font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
     font-size: 29px;
@@ -677,6 +681,17 @@ body {
     grid-gap: 9px;
 
     padding-left: 9px;
+  }
+
+  .scroll__twitter {
+    margin-top: 9px;
+
+    background: #f5c507;
+  }
+
+  .twitter__count,
+  .scroll___button_plus {
+    display: none;
   }
 
   .twitter__chat {
@@ -729,6 +744,18 @@ body {
 
   .scroll__calendar {
     display: none;
+  }
+  .services__caption {
+    padding-left: 21px;
+    padding-top: 43px;
+    padding-bottom: 83px;
+
+    font-size: 32px;
+  }
+
+  .services__image {
+    justify-content: center;
+    margin-left: 0px;
   }
 
   .services__list {
