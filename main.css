@@ -717,6 +717,7 @@ body {
     align-items: center;
 
     width: 323px;
+    padding-top: 15px;
 
     font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular;
   }
@@ -729,6 +730,7 @@ body {
     font-size: 13px;
     color: rgba(143, 142, 142, 255);
     text-align: left;
+    text-indent: 15px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -748,7 +750,14 @@ body {
     background: #fbe89c;
   }
 
+  .chat__text {
+    width: 80%;
+  }
+
   .chat__submit {
+    display: inline-block;
+    width: 20%;
+
     background: #e7a623;
 
     color: #ffffff;
