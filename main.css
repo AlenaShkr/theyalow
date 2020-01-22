@@ -726,6 +726,7 @@ body {
     width: 80%;
     height: 42px;
     margin-bottom: 14px;
+    padding: 4px;
 
     font-size: 13px;
     color: rgba(143, 142, 142, 255);
@@ -750,13 +751,25 @@ body {
     background: #fbe89c;
   }
 
+  .chat__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 15px;
+  }
+
   .chat__text {
-    width: 80%;
+    width: 60%;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 0px;
   }
 
   .chat__submit {
-    display: inline-block;
     width: 20%;
+    padding: 7px 0px;
 
     background: #e7a623;
 
@@ -764,7 +777,8 @@ body {
     font-size: 15px;
 
     border: 0px;
-    border-top-right-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
   .scroll__calendar {
