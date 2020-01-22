@@ -739,6 +739,22 @@ body {
     -o-border-radius: 15px;
   }
 
+  .chat__message:before {
+    content: ' ';
+    position: relative;
+    right: 10%;
+    top: 57%;
+
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+
+    background: inherit;
+
+    border-bottom-left-radius: 32px;
+    border-top-right-radius: 21px;
+  }
+
   .chat__message:first-child {
     background: #ffffff;
   }
