@@ -552,12 +552,21 @@ body {
     padding-top: 0px;
   }
 
+  .header .wrapper {
+    align-items: center;
+  }
+
   .logo__title {
     font-size: 28px;
   }
 
   .nav {
     margin-right: 10px;
+    margin-top: 0px;
+  }
+
+  .nav__list {
+    box-shadow: 0px 0px 0px 0px #a48d19, 0px 0px 0px 0px #880066;
   }
 
   .slogan__text {
@@ -622,7 +631,7 @@ body {
     display: flex;
     width: 455px;
 
-    margin-top: 0px;
+    margin-right: 0px;
   }
 
   .nav__list {
